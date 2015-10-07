@@ -4,6 +4,7 @@ ruby '2.2.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
+
 # Use sqlite3 as the database for development and test
 gem 'sqlite3', group: [:development, :test]
 
