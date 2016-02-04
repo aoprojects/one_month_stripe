@@ -1,2 +1,5 @@
-class Puchase < ActiveRecord::Base
+class Purchase < ActiveRecord::Base
+	def to_param
+		UUID
+	end
 end
